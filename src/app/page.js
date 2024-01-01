@@ -36,7 +36,7 @@ export default function Home() {
           <h2 className='text-5xl py-2 text-teal-500 font-medium'>
             Sonal Naik
           </h2>
-          <h3 className='text-2xl py-2'>Aspiring nn Software Developer</h3>
+          <h3 className='text-2xl py-2'>Aspiring Software Developer</h3>
           <p>
 
           </p>
