@@ -17,6 +17,10 @@ import ImaginationStation from '/public/companies/is.webp'
 import Tulip from '/public/companies/tulip.png'
 import Armdle from '/public/projects/armdle.png'
 import ArmdleDemo from '/public/projects/armdledemo.png'
+import Marketplace1 from '/public/projects/marketplace/marketplace1.png'
+import Marketplace2 from '/public/projects/marketplace/marketplace2.png'
+import Marketplace3 from '/public/projects/marketplace/marketplace3.png'
+import Marketplace4 from '/public/projects/marketplace/marketplace4.png'
 
 import { IoPizzaOutline } from "react-icons/io5";
 import { BiLogoJava, BiShoppingBag } from "react-icons/bi";
@@ -54,7 +58,7 @@ export default function Home() {
             <ul className='flex items-center gap-5'>
               <li><BsSpotify className='cursor-pointer text-2xl' /></li>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
-              <li><a className='bg-cyan-600 text-white px-5 rounded-md' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
+              <li><a className='bg-cyan-600 text-white px-5 rounded-md cursor-pointer' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
             </ul>
           </nav>
 
@@ -204,9 +208,10 @@ export default function Home() {
               <IoPizzaOutline className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>What&#39;s For Dinner?</h3>
               <h2>Dec 2023 - present</h2>
-              <div className='grid grid-cols-5 gap-10'>
-                <ul className='text-left list-disc p-5 col-span-4'>
-                  <li className='m-2'> </li>
+              <div >
+                <ul className='text-left list-disc p-5'>
+                  <li className='m-2'>Hosted an application on GCP using Flutter, Flask, and Suggestic API to process 7000+ recipes.</li>
+                  <li className='m-2'>Allows users to specify up to 10 ingredients and recommender system suggests meals based on assigned filters</li>
                 </ul>
               </div>
             </div>
@@ -215,9 +220,9 @@ export default function Home() {
               <LiaCodeSolid className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>Simple C Compiler</h3>
               <h2>Nov 2023 - Dec 2023</h2>
-              <div className='grid grid-cols-5 gap-10'>
-                <ul className='text-left list-disc p-5 col-span-4'>
-                  <li className='m-2'> </li>
+              <div>
+                <ul className='text-left list-disc p-5'>
+                  <li className='m-2'>Developed a C compiler using Lex and Yacc to generate x86-64 assembly language to produce an executable file.</li>
                 </ul>
               </div>
             </div>
@@ -230,11 +235,14 @@ export default function Home() {
                 <ul className='text-left list-disc p-5 col-span-4'>
                   <li className='m-2'>Managed a 5-member team to produce an interactive Java GUI program allowing users to pose as sellers or
                     buyers to list products in stores or purchase products. </li>
-                  <li>Implemented Network I/O, file processing, and concurrency to increase efficiency by 20%.</li>
+                  <li className='m-2'>Implemented Network I/O, file processing, and concurrency to increase efficiency by 20%.</li>
                 </ul>
               </div>
-              <div>
-                <Image></Image>
+              <div className='grid grid-cols-3 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center'>
+                <Image className='rounded-xl' src={Marketplace1} alt='Marketplace1' width={200} height={200} />
+                <Image className='rounded-xl' src={Marketplace2} alt='Marketplace2' width={200} height={200} />
+                <Image className='rounded-xl' src={Marketplace3} alt='Marketplace3' width={200} height={200} />
+                <Image className='rounded-xl' src={Marketplace4} alt='Marketplace4' width={200} height={200} />
               </div>
             </div>
 
@@ -249,7 +257,7 @@ export default function Home() {
                   <li className='m-2'>Top 3 Team at JCRMRG/United Way Health Hackathon (130+ participants).</li>
                 </ul>
               </div>
-              <div className='grid grid-cols-2'>
+              <div className='grid grid-cols-2 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center'>
                 <Image className='rounded-xl' src={Armdle} alt='Armdle' width={200} height={200} />
                 <Image className='rounded-xl' src={ArmdleDemo} alt='ArmdleDemo' width={200} height={200} />
               </div>
