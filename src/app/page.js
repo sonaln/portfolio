@@ -15,12 +15,12 @@ import Diamond from '/public/companies/diamond.png'
 import SupportVectors from '/public/companies/supportvectors.png'
 import ImaginationStation from '/public/companies/is.webp'
 import Tulip from '/public/companies/tulip.png'
+import Blizzard from '/public/blizzard.png'
 import Armdle from '/public/projects/armdle.png'
 import ArmdleDemo from '/public/projects/armdledemo.png'
 import Marketplace1 from '/public/projects/marketplace/marketplace1.png'
 import Marketplace2 from '/public/projects/marketplace/marketplace2.png'
 import Marketplace3 from '/public/projects/marketplace/marketplace3.png'
-import Marketplace4 from '/public/projects/marketplace/marketplace4.png'
 
 import { IoPizzaOutline } from "react-icons/io5";
 import { BiLogoJava, BiShoppingBag } from "react-icons/bi";
@@ -56,9 +56,8 @@ export default function Home() {
             </ul>
 
             <ul className='flex items-center gap-5'>
-              <li><BsSpotify className='cursor-pointer text-2xl' /></li>
-              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
-              <li><a className='bg-cyan-600 text-white px-5 rounded-md cursor-pointer' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
+
+              <li><a className='bg-cyan-600 text-white font-mono px-5 rounded-md cursor-pointer h-5 w-5' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
             </ul>
           </nav>
 
@@ -69,8 +68,8 @@ export default function Home() {
               Sonal Naik
             </h2>
             <h3 className='text-2xl py-2'>Aspiring Software Developer</h3>
-            <p className='p-10'>
-              Hello! Welcome to my portfolio. I am a software developer based in the San Francisco Bay Area.
+            <p className='p-10 text-xl text-cyan-600 font-mono'>
+              Hello! Welcome to my portfolio. I am a software developer and Computer Science student based in the San Francisco Bay Area. I am passionate about technology and I am always looking for new opportunities to learn and grow. I am currently seeking a software developer internship position.
             </p>
 
 
@@ -207,10 +206,10 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
               <IoPizzaOutline className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>What&#39;s For Dinner?</h3>
-              <h2>Dec 2023 - present</h2>
+              <h2>Jan 2024 - present</h2>
               <div >
                 <ul className='text-left list-disc p-5'>
-                  <li className='m-2'>Hosted an application on GCP using Flutter, Flask, and Suggestic API to process 7000+ recipes.</li>
+                  <li className='m-2'>Hosted an application on AWS using Flask, and Suggestic API to process 7000+ recipes.</li>
                   <li className='m-2'>Allows users to specify up to 10 ingredients and recommender system suggests meals based on assigned filters</li>
                 </ul>
               </div>
@@ -242,7 +241,6 @@ export default function Home() {
                 <Image className='rounded-xl' src={Marketplace1} alt='Marketplace1' width={200} height={200} />
                 <Image className='rounded-xl' src={Marketplace2} alt='Marketplace2' width={200} height={200} />
                 <Image className='rounded-xl' src={Marketplace3} alt='Marketplace3' width={200} height={200} />
-                <Image className='rounded-xl' src={Marketplace4} alt='Marketplace4' width={200} height={200} />
               </div>
             </div>
 
@@ -313,7 +311,7 @@ export default function Home() {
             <h3 className='font-medium text-xl justify-center'>Co-Founder and Co-Captain/Alumni Mentor</h3>
             <h2>Mar 2020 - present</h2>
             <div className='grid grid-cols-5 gap-10'>
-              <Image className='col-span-1 rounded-full m-5' src={Diamond} alt='Diamond' width={200} height={200} />
+              <Image className='col-span-1 rounded-full m-5' src={Blizzard} alt='Blizzard' width={200} height={200} />
               <ul className='text-left list-disc p-5 col-span-4'>
                 <li className='m-5'>Founded an award-winning robotics team of 8 focused on design, teamwork, and technological advancements. </li>
                 <li className='m-5'>Established and mentoring a non-profit organization impacting 1000+ people to spread STEM education in local communities, libraries, and schools.</li>
@@ -325,7 +323,7 @@ export default function Home() {
             <h3 className='font-medium text-xl justify-center'>STEM Summer Camp Counselor</h3>
             <h2>June 2019 - Aug 2019</h2>
             <div className='grid grid-cols-5 gap-10'>
-              <Image className='col-span-1 rounded-full m-5' src={Tulip} alt='Tulip' width={200} height={200} />
+              <Image className='col-span-1 m-5' src={Tulip} alt='Tulip' width={200} height={200} />
               <ul className='text-left list-disc p-5 col-span-4'>
                 <li className='m-5'>Volunteered at a local STEAM summer camp for children ages 5-10. </li>
                 <li className='m-5'>Formulated lesson material and organized daily activities for participants. </li>
@@ -337,22 +335,32 @@ export default function Home() {
         </section>
 
 
-        <section>
-          <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
-              Contact
-            </h3>
-          </div>
-          <div className='grid grid-cols-2 gap-10'>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfICdEGyxTziDRKxE24IXAygVBj0zUMQLSOwiijzsTf8m6HDA/viewform?embedded=true" width="640" height="926" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfICdEGyxTziDRKxE24IXAygVBj0zUMQLSOwiijzsTf8m6HDA/viewform?embedded=true" width="640" height="926" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-
-          </div>
-        </section>
 
       </main>
     </div>
   );
 }
 
+
+
+{/* 
+
+
+              <li><BsSpotify className='cursor-pointer text-2xl' /></li>
+              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
+
+
+<section>
+<div className='flex justify-center gap-10 py-1'>
+  <h3 className='text-3xl font-extrabold'>
+    Contact
+  </h3>
+</div>
+<div className='grid grid-cols-2 gap-10'>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfICdEGyxTziDRKxE24IXAygVBj0zUMQLSOwiijzsTf8m6HDA/viewform?embedded=true" width="640" height="926" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfICdEGyxTziDRKxE24IXAygVBj0zUMQLSOwiijzsTf8m6HDA/viewform?embedded=true" width="640" height="926" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+</div>
+</section> */}
