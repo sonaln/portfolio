@@ -55,7 +55,7 @@ export default function Home() {
               <li><h1 className='text-xl font-small font-mono'>Sonal&#39;s Portfolio</h1></li>
             </ul>
 
-            <ul className='flex items-center gap-5'>
+            <ul className='flex items-center gap-5 text-xl'>
 
               <li><a className='bg-cyan-600 text-white font-mono px-5 rounded-md cursor-pointer h-5 w-5' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
             </ul>
@@ -64,12 +64,15 @@ export default function Home() {
           <div className='relative'>
           </div>
           <div className='text-center p-10 rounded-full bg-cyan-200'>
-            <h2 className='text-6xl py-2 text-cyan-700 font-medium font-mono'>
+            <h2 className='md:text-6xl py-2 text-cyan-700 font-medium font-mono text-4xl'>
               Sonal Naik
             </h2>
             <h3 className='text-2xl py-2'>Aspiring Software Developer</h3>
             <p className='p-10 text-xl text-cyan-600 font-mono'>
-              Hello! Welcome to my portfolio. I am a software developer and Computer Science student based in the San Francisco Bay Area. I am passionate about technology and I am always looking for new opportunities to learn and grow. I am currently seeking a software developer internship position.
+              Hello, welcome to my portfolio! <span role="img" aria-label="wave">👋</span>
+            </p>
+            <p className='p-10 text-xl text-cyan-600 font-mono'>
+              Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Currently seeking a software developer internship position.
             </p>
 
 
@@ -255,11 +258,11 @@ export default function Home() {
                   <li className='m-2'>Top 3 Team at JCRMRG/United Way Health Hackathon (130+ participants).</li>
                 </ul>
               </div>
-              <div className='grid grid-cols-2 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center'>
+              <div className='grid grid-cols-2 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center p-5'>
                 <Image className='rounded-xl' src={Armdle} alt='Armdle' width={200} height={200} />
                 <Image className='rounded-xl' src={ArmdleDemo} alt='ArmdleDemo' width={200} height={200} />
               </div>
-              <Link target="_blank" rel="noopener noreferrer" href='https://www.thingiverse.com/thing:4540597'>CAD Files</Link>
+              <Link target="_blank" rel="noopener noreferrer" href='https://www.thingiverse.com/thing:4540597' className='text-lg cursor-pointer bg-cyan-500 hover:bg-cyan-700 rounded-lg'>CAD Files</Link>
             </div>
 
 
@@ -277,7 +280,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Link target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1R8iNOvR7y2XnRTMrPKSbz9u7haTDSegtenc3wLxLNPE/edit?usp=sharing" className='bg-white'>Business Plan</Link>
+                <Link target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1R8iNOvR7y2XnRTMrPKSbz9u7haTDSegtenc3wLxLNPE/edit?usp=sharing" className='text-lg cursor-pointer bg-cyan-500 hover:bg-cyan-700 rounded-lg'>Business Plan</Link>
               </div>
             </div>
 
