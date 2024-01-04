@@ -63,7 +63,7 @@ export default function Home() {
 
           <div className='relative'>
           </div>
-          <div className='text-center p-10 rounded-full bg-cyan-200'>
+          <div className='text-center p-10 rounded-3xl md:rounded-full bg-cyan-200'>
             <h2 className='lg:text-6xl py-2 text-cyan-700 font-medium font-mono text-4xl'>
               Sonal Naik
             </h2>
@@ -71,7 +71,7 @@ export default function Home() {
             <p className='p-10 text-xl text-cyan-600 font-mono'>
               Hello, welcome to my portfolio! <span role="img" aria-label="wave">👋</span>
             </p>
-            <p className='p-10 text-lg md:text-xl text-cyan-600 font-mono'>
+            <p className='p-5 md:p-10 text-lg md:text-xl text-cyan-600 font-mono'>
               Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Currently seeking a software developer internship position.
             </p>
 
@@ -258,7 +258,7 @@ export default function Home() {
               Projects
             </h3>
           </div>
-          <div className='grid grid-cols-2 gap-10'>
+          <div className='grid md:grid-cols-2 gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <IoPizzaOutline className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>What&#39;s For Dinner?</h3>
