@@ -88,11 +88,11 @@ export default function Home() {
 
         <section>
           <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
+            <h3 className='text-3xl font-extrabold font-mono'>
               Skills
             </h3>
           </div>
-          <div className='grid grid-cols-6 text-2xl'>
+          <div className='grid grid-cols-4 text-2xl gap-4 mb-4'>
             <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
               <h4>Java</h4>
             </div>
@@ -106,6 +106,59 @@ export default function Home() {
               <h4>HTML/CSS</h4>
             </div>
 
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>Javascript</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>SQL</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>R</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>MATLAB</h4>
+            </div>
+
+
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>AWS</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>Azure</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>GCP</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>Docker</h4>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>Git</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>Linux</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>pandas</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
+              <h4>scikit-learn</h4>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>OpenCV</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>PyTorch</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>Tensorflow</h4>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
+              <h4>Vuforia</h4>
+            </div>
+
           </div>
 
         </section>
@@ -114,12 +167,12 @@ export default function Home() {
 
         <section>
           <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
+            <h3 className='text-3xl font-extrabold font-mono'>
               Research
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300 '>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400 '>
               <h3 className='font-medium text-xl justify-center'>Software Engineering Researcher</h3>
               <h2>Jan 2024 - present</h2>
               <div className='grid grid-cols-5 gap-10'>
@@ -130,7 +183,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <h3 className='font-medium text-xl justify-center'>PurSec Lab Student Researcher</h3>
               <h2>Oct 2023 - present</h2>
               <div className='grid grid-cols-5 gap-10'>
@@ -148,7 +201,7 @@ export default function Home() {
 
         <section className='py-10'>
           <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
+            <h3 className='text-3xl font-extrabold font-mono'>
               Professional Experience
             </h3>
           </div>
@@ -201,12 +254,12 @@ export default function Home() {
 
         <section>
           <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
+            <h3 className='text-3xl font-extrabold font-mono'>
               Projects
             </h3>
           </div>
           <div className='grid grid-cols-2 gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <IoPizzaOutline className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>What&#39;s For Dinner?</h3>
               <h2>Jan 2024 - present</h2>
@@ -291,12 +344,12 @@ export default function Home() {
 
         <section>
           <div className='flex justify-center gap-10 py-1'>
-            <h3 className='text-3xl font-extrabold'>
+            <h3 className='text-3xl font-extrabold font-mono'>
               Leadership
             </h3>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
             <h3 className='font-medium text-xl justify-center'>STEM Volunteer</h3>
             <h2>Sept 2022 - present</h2>
             <div className='grid grid-cols-5 gap-10'>
@@ -310,7 +363,7 @@ export default function Home() {
           </div>
 
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
             <h3 className='font-medium text-xl justify-center'>Co-Founder and Co-Captain/Alumni Mentor</h3>
             <h2>Mar 2020 - present</h2>
             <div className='grid grid-cols-5 gap-10'>
@@ -320,6 +373,7 @@ export default function Home() {
                 <li className='m-5'>Established and mentoring a non-profit organization impacting 1000+ people to spread STEM education in local communities, libraries, and schools.</li>
               </ul>
             </div>
+              <Link target="_blank" rel="noopener noreferrer" href='https://www.ftcblizzardrobotics.com' className='text-lg cursor-pointer bg-cyan-500 hover:bg-cyan-700 rounded-lg'>Official Website</Link>
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
