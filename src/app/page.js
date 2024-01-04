@@ -64,19 +64,19 @@ export default function Home() {
           <div className='relative'>
           </div>
           <div className='text-center p-10 rounded-full bg-cyan-200'>
-            <h2 className='md:text-6xl py-2 text-cyan-700 font-medium font-mono text-4xl'>
+            <h2 className='lg:text-6xl py-2 text-cyan-700 font-medium font-mono text-4xl'>
               Sonal Naik
             </h2>
             <h3 className='text-2xl py-2'>Aspiring Software Developer</h3>
             <p className='p-10 text-xl text-cyan-600 font-mono'>
               Hello, welcome to my portfolio! <span role="img" aria-label="wave">👋</span>
             </p>
-            <p className='p-10 text-xl text-cyan-600 font-mono'>
+            <p className='p-10 text-lg md:text-xl text-cyan-600 font-mono'>
               Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Currently seeking a software developer internship position.
             </p>
 
 
-            <div className='text-5xl flex justify-center gap-16'>
+            <div className='text-4xl md:text-5xl flex justify-center gap-16'>
               <TiMail onClick={href => window.open('mailto:sonal.sachin.naik@gmail.com', "_blank", "noopener", "noreferrer")} className='cursor-pointer' />
               <TiSocialLinkedin onClick={href => window.open("https://www.linkedin.com/in/sonaln", "_blank", "noopener", "noreferrer")} className='cursor-pointer' />
               <TiSocialGithub onClick={href => window.open('https://www.github.com/sonaln', "_blank", "noopener", "noreferrer")} className='cursor-pointer' />
@@ -87,12 +87,12 @@ export default function Home() {
 
 
         <section>
-          <div className='flex justify-center gap-10 py-1'>
+          <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-extrabold font-mono'>
               Skills
             </h3>
           </div>
-          <div className='grid grid-cols-4 text-2xl gap-4 mb-4'>
+          <div className='grid grid-cols-2 md:grid-cols-4 text-lg md:text-2xl gap-4 mb-4'>
             <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
               <h4>Java</h4>
             </div>
@@ -166,7 +166,7 @@ export default function Home() {
 
 
         <section>
-          <div className='flex justify-center gap-10 py-1'>
+          <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-extrabold font-mono'>
               Research
             </h3>
@@ -175,9 +175,9 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400 '>
               <h3 className='font-medium text-xl justify-center'>Software Engineering Researcher</h3>
               <h2>Jan 2024 - present</h2>
-              <div className='grid grid-cols-5 gap-10'>
+              <div className='grid md:grid-cols-5 gap-10'>
                 <Image className='col-span-1 m-5' src={Lilly} alt='Lilly' width={200} height={200} />
-                <ul className='text-left list-disc p-5 col-span-4'>
+                <ul className='text-left list-disc p-5 md:col-span-4'>
                   <li className='m-5'> Utilizing data analytics and software engineering skills to aid in drug research and discovery. </li>
                 </ul>
               </div>
@@ -186,9 +186,9 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <h3 className='font-medium text-xl justify-center'>PurSec Lab Student Researcher</h3>
               <h2>Oct 2023 - present</h2>
-              <div className='grid grid-cols-5 gap-10'>
-                <Image className='m-5 col-span-1' src={PurSec} alt='PurSec Lab' width={200} height={200} />
-                <ul className='text-left list-disc p-5 col-span-4'>
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='m-5 md:col-span-1' src={PurSec} alt='PurSec Lab' width={200} height={200} />
+                <ul className='text-left list-disc p-5 md:col-span-4'>
                   <li className='m-5'> Analyzing security of LLM and Diffusion Models in Android applications through jailbreaking, prompt retrieval
                     methods, and back-end communication interception. </li>
                   <li className='m-5'> Researching security concerns and limitations of such applications under Dr. Berkay Celik and Dr. Antonio Bianchi as part of the Purdue Security Lab. </li>
@@ -200,14 +200,14 @@ export default function Home() {
         </section>
 
         <section className='py-10'>
-          <div className='flex justify-center gap-10 py-1'>
+          <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-extrabold font-mono'>
               Professional Experience
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-300'>
-              <h3 className='font-medium text-xl justify-center'>Undergraduate Teaching Assistant</h3>
+            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-300'>
+              <h3 className='font-medium md:text-xl justify-center'>Undergraduate Teaching Assistant</h3>
               <h2>Jan 2024 - present</h2>
               <div className='grid grid-cols-5 gap-10'>
                 <Image className='col-span-1 m-5' src={Purdue} alt='Purdue' width={200} height={200} />
@@ -217,12 +217,12 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h3 className='font-medium text-xl justify-center'>Natural Language Processing Intern</h3>
+            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-600'>
+              <h3 className='font-medium md:text-xl justify-center'>Natural Language Processing Intern</h3>
               <h2>June 2023 - Aug 2023</h2>
-              <div className='grid grid-cols-5 gap-10'>
-                <Image className='bg-slate-600 col-span-1 m-5' src={SupportVectors} alt='SupportVectors' width={200} height={200} />
-                <ul className='text-left list-disc p-5 col-span-4'>
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='bg-slate-600 md:col-span-1 m-5' src={SupportVectors} alt='SupportVectors' width={200} height={200} />
+                <ul className='text-left list-disc p-5 md:col-span-4'>
                   <li className='m-5'> Implemented 3 LLMs and vector databases using LangChain to generate an adaptive Document QA Chatbot
                     web application with Streamlit to embed and converse with documents from 7 file types using Python. </li>
                   <li className='m-5'> Proficiency in vector similarity search (FAISS), sentence transformers, and integration of Generative AI models.</li>
@@ -232,12 +232,12 @@ export default function Home() {
             </div>
 
 
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h3 className='font-medium text-xl justify-center'>Private Tutor</h3>
+            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-600'>
+              <h3 className='font-medium md:text-xl justify-center'>Private Tutor</h3>
               <h2>Mar 2021 - May 2022</h2>
-              <div className='grid grid-cols-5 gap-10'>
+              <div className='grid md:grid-cols-5 gap-10'>
                 <Image className='col-span-1 rounded-full m-5' src={Diamond} alt='Diamond' width={200} height={200} />
-                <ul className='text-left list-disc p-5 col-span-4'>
+                <ul className='text-left list-disc p-5 md:col-span-4'>
                   <li className='m-5'> Tutored 5 clients ages 8-14 weekly in English and Math and boosted student grades up to 30% due to topic
                     mastery and increased confidence.</li>
                   <li className='m-5'>Created over 30 personalized lessons and communicated problem-solving strategies to parents.</li>
@@ -253,7 +253,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className='flex justify-center gap-10 py-1'>
+          <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-extrabold font-mono'>
               Projects
             </h3>
@@ -293,7 +293,7 @@ export default function Home() {
                   <li className='m-2'>Implemented Network I/O, file processing, and concurrency to increase efficiency by 20%.</li>
                 </ul>
               </div>
-              <div className='grid grid-cols-3 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center'>
+              <div className='grid md:grid-cols-3 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center'>
                 <Image className='rounded-xl' src={Marketplace1} alt='Marketplace1' width={200} height={200} />
                 <Image className='rounded-xl' src={Marketplace2} alt='Marketplace2' width={200} height={200} />
                 <Image className='rounded-xl' src={Marketplace3} alt='Marketplace3' width={200} height={200} />
@@ -311,7 +311,7 @@ export default function Home() {
                   <li className='m-2'>Top 3 Team at JCRMRG/United Way Health Hackathon (130+ participants).</li>
                 </ul>
               </div>
-              <div className='grid grid-cols-2 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center p-5'>
+              <div className='grid md:grid-cols-2 gap-3  justify-content-space-evenly justify-items-center align-content-space-evenly align-items-center p-5'>
                 <Image className='rounded-xl' src={Armdle} alt='Armdle' width={200} height={200} />
                 <Image className='rounded-xl' src={ArmdleDemo} alt='ArmdleDemo' width={200} height={200} />
               </div>
@@ -343,7 +343,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className='flex justify-center gap-10 py-1'>
+          <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-extrabold font-mono'>
               Leadership
             </h3>
@@ -352,9 +352,9 @@ export default function Home() {
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
             <h3 className='font-medium text-xl justify-center'>STEM Volunteer</h3>
             <h2>Sept 2022 - present</h2>
-            <div className='grid grid-cols-5 gap-10'>
+            <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 rounded-full m-5' src={ImaginationStation} alt='ImaginationStation' width={200} height={200} />
-              <ul className='text-left list-disc p-5 col-span-4'>
+              <ul className='text-left list-disc p-5 md:col-span-4'>
                 <li className='m-5'>Volunteered at a local STEAM summer camp for children ages 5-10. </li>
                 <li className='m-5'>Formulated lesson material and organized daily activities for participants. </li>
                 <li className='m-5'>Communicated student development and daily itinerary with parents.</li>
@@ -366,9 +366,9 @@ export default function Home() {
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
             <h3 className='font-medium text-xl justify-center'>Co-Founder and Co-Captain/Alumni Mentor</h3>
             <h2>Mar 2020 - present</h2>
-            <div className='grid grid-cols-5 gap-10'>
+            <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 rounded-full m-5' src={Blizzard} alt='Blizzard' width={200} height={200} />
-              <ul className='text-left list-disc p-5 col-span-4'>
+              <ul className='text-left list-disc p-5 md:col-span-4'>
                 <li className='m-5'>Founded an award-winning robotics team of 8 focused on design, teamwork, and technological advancements. </li>
                 <li className='m-5'>Established and mentoring a non-profit organization impacting 1000+ people to spread STEM education in local communities, libraries, and schools.</li>
               </ul>
@@ -379,9 +379,9 @@ export default function Home() {
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
             <h3 className='font-medium text-xl justify-center'>STEM Summer Camp Counselor</h3>
             <h2>June 2019 - Aug 2019</h2>
-            <div className='grid grid-cols-5 gap-10'>
+            <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 m-5' src={Tulip} alt='Tulip' width={200} height={200} />
-              <ul className='text-left list-disc p-5 col-span-4'>
+              <ul className='text-left list-disc p-5 md:col-span-4'>
                 <li className='m-5'>Volunteered at a local STEAM summer camp for children ages 5-10. </li>
                 <li className='m-5'>Formulated lesson material and organized daily activities for participants. </li>
                 <li className='m-5'>Communicated student development and daily itinerary with parents.</li>
