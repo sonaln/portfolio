@@ -42,7 +42,7 @@ export default function Home() {
 
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Sonal Naiks Portfolio</title>
+        <title>Sonal Naik&#39;s Portfolio</title>
         <meta name="description" content="General" />
         <link rel="icon" href='./star.ico' />
       </Head>
@@ -183,9 +183,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
               <h3 className='font-medium text-xl justify-center'>PurSec Lab Student Researcher</h3>
-              <h2>Oct 2023 - present</h2>
+              <h2>Oct 2023 - Jan 2024</h2>
               <div className='grid md:grid-cols-5 gap-10'>
                 <Image className='m-5 md:col-span-1' src={PurSec} alt='PurSec Lab' width={200} height={200} />
                 <ul className='text-left list-disc p-5 md:col-span-4'>
@@ -209,8 +209,8 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-300'>
               <h3 className='font-medium md:text-xl justify-center'>Undergraduate Teaching Assistant</h3>
               <h2>Jan 2024 - present</h2>
-              <div className='grid grid-cols-5 gap-10'>
-                <Image className='col-span-1 m-5' src={Purdue} alt='Purdue' width={200} height={200} />
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='col-span-1 m-5 md:col-span-1' src={Purdue} alt='Purdue' width={200} height={200} />
                 <ul className='text-left list-disc p-5 col-span-4'>
                   <li className='m-5'> Utilizing data analytics and software engineering skills to aid in drug research and discovery. </li>
                 </ul>
@@ -350,21 +350,20 @@ export default function Home() {
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
-            <h3 className='font-medium text-xl justify-center'>STEM Volunteer</h3>
+            <h3 className='font-medium text-xl justify-center'>STEM Volunteer @ Imagination Station</h3>
             <h2>Sept 2022 - present</h2>
             <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 rounded-full m-5' src={ImaginationStation} alt='ImaginationStation' width={200} height={200} />
               <ul className='text-left list-disc p-5 md:col-span-4'>
-                <li className='m-5'>Volunteered at a local STEAM summer camp for children ages 5-10. </li>
-                <li className='m-5'>Formulated lesson material and organized daily activities for participants. </li>
-                <li className='m-5'>Communicated student development and daily itinerary with parents.</li>
+                <li className='m-5'>Volunteered at a local science musuem targeted for children ages 2-10. </li>
+                <li className='m-5'>Presented lesson material and organized activities for participants. </li>
               </ul>
             </div>
           </div>
 
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
-            <h3 className='font-medium text-xl justify-center'>Co-Founder and Co-Captain/Alumni Mentor</h3>
+            <h3 className='font-medium text-xl justify-center'>Co-Founder and Co-Captain/Alumni Mentor @ Blizzard Robotics</h3>
             <h2>Mar 2020 - present</h2>
             <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 rounded-full m-5' src={Blizzard} alt='Blizzard' width={200} height={200} />
@@ -377,7 +376,7 @@ export default function Home() {
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
-            <h3 className='font-medium text-xl justify-center'>STEM Summer Camp Counselor</h3>
+            <h3 className='font-medium text-xl justify-center'>STEM Summer Camp Counselor @ Tulip After School</h3>
             <h2>June 2019 - Aug 2019</h2>
             <div className='grid md:grid-cols-5 gap-10'>
               <Image className='col-span-1 m-5' src={Tulip} alt='Tulip' width={200} height={200} />
