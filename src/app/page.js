@@ -212,7 +212,7 @@ export default function Home() {
               <div className='grid md:grid-cols-5 gap-10'>
                 <Image className='col-span-1 m-5 md:col-span-1' src={Purdue} alt='Purdue' width={200} height={200} />
                 <ul className='text-left list-disc p-5 col-span-4'>
-                  <li className='m-5'> Utilizing data analytics and software engineering skills to aid in drug research and discovery. </li>
+                  <li className='m-5'> Responsible for leading labs and assisting students during office hours for introductory Java class (CS 18000). </li>
                 </ul>
               </div>
             </div>
