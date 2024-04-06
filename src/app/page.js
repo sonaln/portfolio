@@ -183,7 +183,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <h3 className='font-medium text-xl justify-center'>PurSec Lab Student Researcher</h3>
               <h2>Oct 2023 - Jan 2024</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -217,7 +217,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-600'>
+            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-300'>
               <h3 className='font-medium md:text-xl justify-center'>Natural Language Processing Intern</h3>
               <h2>June 2023 - Aug 2023</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -232,7 +232,7 @@ export default function Home() {
             </div>
 
 
-            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-600'>
+            <div className='text-center shadow-lg p-10 rounded-md md:rounded-full my-10 bg-cyan-300'>
               <h3 className='font-medium md:text-xl justify-center'>Private Tutor</h3>
               <h2>Mar 2021 - May 2022</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -271,7 +271,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <LiaCodeSolid className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>Simple C Compiler</h3>
               <h2>Nov 2023 - Dec 2023</h2>
@@ -282,7 +282,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <BiShoppingBag className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>Marketplace</h3>
               <h2>Nov 2022 - Dec 2022</h2>
@@ -300,7 +300,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <GiDoorHandle className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>Armdle</h3>
               <h2>Mar 2020 - June 2021</h2>
@@ -319,7 +319,7 @@ export default function Home() {
             </div>
 
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
               <IoWaterOutline className='text-3xl' />
               <h3 className='font-medium text-xl justify-center'>HumiCheck</h3>
               <h2>June 2021</h2>
@@ -375,7 +375,7 @@ export default function Home() {
               <Link target="_blank" rel="noopener noreferrer" href='https://www.ftcblizzardrobotics.com' className='text-lg cursor-pointer bg-cyan-500 hover:bg-cyan-700 rounded-lg'>Official Website</Link>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-600'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-cyan-400'>
             <h3 className='font-medium text-xl justify-center'>STEM Summer Camp Counselor @ Tulip After School</h3>
             <h2>June 2019 - Aug 2019</h2>
             <div className='grid md:grid-cols-5 gap-10'>
