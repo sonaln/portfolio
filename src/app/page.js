@@ -72,7 +72,7 @@ export default function Home() {
               Hello, welcome to my portfolio! <span role="img" aria-label="wave">👋</span>
             </p>
             <p className='p-5 md:p-10 text-lg md:text-xl text-cyan-600 font-mono'>
-              Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Currently seeking a software developer internship position.
+              Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Looking for SWE internship Summer 2025.
             </p>
 
 
