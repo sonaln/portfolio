@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Link from 'next/link';
 import { BsAirplane, BsFillMoonStarsFill, BsSpotify } from 'react-icons/bs'
 import { TiSocialLinkedin, TiSocialGithub, TiMail, TiUser, TiStarOutline, TiStarHalfOutline } from 'react-icons/ti'
+
 import { FaGalacticRepublic, FaJava } from "react-icons/fa6";
 import { useState } from 'react'
 import Lilly from '/public/companies/lilly.png'
@@ -47,32 +48,32 @@ export default function Home() {
         <link rel="icon" href='./star.ico' />
       </Head>
 
-      <main className='bg-cyan-100 px-10 md:px-20 lg:px-30 xl:px-40 dark:bg-black'>
+      <main className='bg-[#0b3948] px-10 md:px-20 lg:px-30 xl:px-40 dark:bg-black'>
         <section className="min-h-screen">
           <nav className='p-10 mb-12 flex justify-between'>
             <ul className='flex items-center gap-5'>
               <li><TiStarOutline className='text-4xl' color='darkcyan' /></li>
-              <li><h1 className='text-xl font-small font-mono'>Sonal&#39;s Portfolio</h1></li>
+              <li><h1 className='text-2xl font-small text-[#88b6bdbe] font-mono'>Sonal&#39;s Portfolio</h1></li>
             </ul>
-
+{/* 
             <ul className='flex items-center gap-5 text-xl'>
 
-              <li><a className='bg-cyan-600 text-white font-mono px-5 rounded-md cursor-pointer h-5 w-5' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
-            </ul>
+              <li><a className='bg-cyan-700 text-cyan-600 font-mono px-5 rounded-md cursor-pointer h-5 w-5' onClick={href => window.open("https://forms.gle/J1pBuMzQJw2R8vzC8", "_blank", "noopener", "noreferrer")}>Resume</a></li>
+            </ul> */}
           </nav>
 
           <div className='relative'>
           </div>
-          <div className='text-center p-10 rounded-3xl md:rounded-full bg-cyan-200'>
-            <h2 className='lg:text-6xl py-2 text-cyan-700 font-medium font-mono text-4xl'>
+          <div className='text-center p-10 rounded-3xl md:rounded-full bg-[#88b6bd80]'>
+            <h2 className='lg:text-6xl py-2 text-[#0b3948] font-medium font-mono text-4xl'>
               Sonal Naik
             </h2>
             <h3 className='text-2xl py-2'>Aspiring Software Developer</h3>
-            <p className='p-10 text-xl text-cyan-600 font-mono'>
-              Hello, welcome to my portfolio! <span role="img" aria-label="wave">👋</span>
+            <p className='p-10 text-xl text-[#0b3948] font-mono'>
+            <span role="img" aria-label="wave">👋</span> Hello, welcome to my portfolio!
             </p>
-            <p className='p-5 md:p-10 text-lg md:text-xl text-cyan-600 font-mono'>
-              Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Looking for SWE internship Summer 2025.
+            <p className='p-5 md:p-10 text-lg md:text-xl text-[#0b3948] font-mono'>
+              Software developer from San Francisco Bay Area. Passionate about technology and always looking for new opportunities to learn and grow. Looking for Summer 2025 SWE internship.
             </p>
 
 
