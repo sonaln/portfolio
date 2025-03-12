@@ -11,7 +11,9 @@ import { useState } from 'react'
 import Lilly from '/public/companies/lilly.png'
 import Sonal from '/public/sonal.JPG'
 import PurSec from '/public/companies/pursec.png'
+import SoFi from '/public/companies/sofi.png'
 import Purdue from '/public/companies/purdue.svg'
+import Iguide from '/public/companies/iguide.png'
 import Diamond from '/public/companies/diamondbg.png'
 import SupportVectors from '/public/companies/supportvectorsbg.png'
 import ImaginationStation from '/public/companies/is.webp'
@@ -41,15 +43,16 @@ export default function Home() {
 
   return (
 
-    <div>
+    <div class="scroll-container">
       <Head>
         <title>Sonal Naik&#39;s Portfolio</title>
         <meta name="description" content="General" />
         <link rel="icon" href='./star.ico' />
       </Head>
 
+
       <main className='bg-[#0b3948] px-10 md:px-20 lg:px-30 xl:px-40 dark:bg-black'>
-        <section className="min-h-screen">
+        <section id="home" className="min-h-screen">
           <nav className='p-10 mb-12 flex justify-between'>
             <ul className='flex items-center gap-5'>
               <li><TiStarOutline className='text-4xl text-[#6bb7c3b1]' /></li>
@@ -85,123 +88,61 @@ export default function Home() {
           </div>
         </section>
 
-<section>
+
+
+        <section id="education">
 <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-mono text-[#6bb8c3be]'>
 Education
             </h3>
           </div>
-          
-<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
-    <li class="mb-10 ms-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">B.S. Computer Science + Data Science @ Purdue University</h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-    </li>
-    <li class="mb-10 ms-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2025</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">M.S. Computer Science @ Purdue University</h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-    </li>
 
-</ol>
+<div class="bg-[#0b3948] p-8">
+    <ol class="relative border-s border-gray-400">                  
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-[#6bb7c3a8] rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-300">2022</time>
+            <div class="p-6 rounded-xl md:rounded-full bg-[#6bb7c3a8]">
+    <h3 class="text-xl font-semibold text-[#0b3948] font-mono">B.S. Computer Science & Data Science</h3>
+    <h2 class="text-md font-bold text-[#0b3948] font-mono">Purdue University</h2>
+    {/* <ul class="text-base font-normal text-gray-300 list-disc list-inside">
+        <li>Concentration in Machine Intelligence</li>
+        <li>Dean's List and Semester Honors</li>
+    </ul> */}
+</div>
+      </li>
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-[#6bb7c3a8] rounded-full mt-1.5 -start-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-300">2024</time>
+            <div class="p-6 rounded-3xl md:rounded-full bg-[#6bb7c3a8]">
+            <h3 class="text-xl font-semibold text-[#0b3948] font-mono">M.S. Computer Science</h3>
+            <h2 class="text-md font-bold text-[#0b3948] font-mono">Purdue University</h2>
+            </div>
+  </li>
+    </ol>
+</div>
 </section>
 
 
-
-
-
-
-        {/* <section>
-          <div className='flex justify-center gap-10 pt-10'>
-            <h3 className='text-3xl font-extrabold font-mono'>
-              Skills
-            </h3>
-          </div>
-          <div className='grid grid-cols-2 md:grid-cols-4 text-lg md:text-2xl gap-4 mb-4'>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Java</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Python</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>C/C++</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>HTML/CSS</h4>
-            </div>
-
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>Javascript</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>SQL</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>R</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>MATLAB</h4>
-            </div>
-
-
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>AWS</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Azure</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>GCP</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Docker</h4>
-            </div>
-
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>Git</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>Linux</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>pandas</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-500'>
-              <h4>scikit-learn</h4>
-            </div>
-
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>OpenCV</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>PyTorch</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Tensorflow</h4>
-            </div>
-            <div className='text-center shadow-lg p-10 rounded-full my-10 bg-cyan-600'>
-              <h4>Vuforia</h4>
-            </div>
-
-          </div>
-
-        </section>
- */}
-
-
-
-
-        <section className='py-10'>
+        <section>
           <div className='flex justify-center gap-10 pt-10'>
             <h3 className='text-3xl font-mono text-[#6bb8c3be]'>
               Professional Experience
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
+              <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Software Engineering Intern @ SoFi</h3>
+              <h2>May 2024 - Aug 2024</h2>
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='col-span-1 m-5 md:col-span-1 rounded-3xl' src={SoFi} alt='SoFi' width={200} height={200} />
+                <ul className='text-left list-disc p-5 col-span-4 font-mono'>
+                  <li className='m-5'> Developed a Monte Carlo Terraform solution to improve Team Data Mart development within SoFi&#39;s data registry and to significantly reduce licensing costs. </li>
+                  <li className='m-5'>Tools used: Snowflake, Terraform, Monte Carlo, GraphQL, Python, AWS, Alation</li>
+                </ul>
+              </div>
+            </div>
+
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Undergraduate Teaching Assistant @ Purdue</h3>
               <h2>Jan 2024 - present</h2>
@@ -224,6 +165,7 @@ Education
                     web application with Streamlit to embed and converse with documents from 7 file types using Python. </li>
                   <li className='m-5'> Proficiency in vector similarity search (FAISS), sentence transformers, and integration of Generative AI models.</li>
                   <li className='m-5'>Collaborated with a group of 10 to develop a Medical Consult API to transcribe consultation audio and produce ICD/CPT codes with 88% accuracy using Whisper, OpenAI, MIMIC IV dataset, and Google Healthcare APIs. </li>
+                  <li className='m-5'>Tools used: Python, GCP, RabbitMQ, ChromaDB, Streamlit</li>
                 </ul>
               </div>
             </div>
@@ -243,11 +185,11 @@ Education
 
             </div>
 
-
-
-
           </div>
         </section>
+
+
+
 
 
         <section>
@@ -257,13 +199,40 @@ Education
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
+              <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Data Science Researcher @ NSF I-GUIDE</h3>
+              <h2>Aug 2024 - present</h2>
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='col-span-1 m-5 opacity-7' src={Iguide} alt='Iguide' width={200} height={200} />
+                <ul className='text-left list-disc p-5 md:col-span-4 font-mono'>
+                  <li className='m-5'> Social vulnerability analysis of aging dam infrastructure by optimizing storage formats and distributed processing of a large (30 GB) geospatial dataset with 9 million records.</li>
+                  <li className='m-5'>Under the technical guidance of Dr. Furqan Baig and Lan Zhao.</li>
+                  <li className='m-5'> Tools used: Python, SQL, Apache Spark, Apache Sedona, GCP Data Proc</li>
+                </ul>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
+              <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Machine Learning Researcher @ CLAN Labs</h3>
+              <h2>Aug 2024 - Dec 2024</h2>
+              <div className='grid md:grid-cols-5 gap-10'>
+                <Image className='col-span-1 m-5 opacity-7' src={Purdue} alt='Purdue' width={200} height={200} />
+                <ul className='text-left list-disc p-5 md:col-span-4 font-mono'>
+                  <li className='m-5'> Conducted through Purdue&#39;s DUIRI scholarship program.</li>
+                  <li className='m-5'> Developing learning-based approaches for improved decision making to save patients from Sepsis using Transformers and 
+                    Offline RL with the MIMIC III dataset under Dr. Vaneet Aggarwal and Dr. Denny Yu.</li>
+                    <li className='m-5'> Tools used: Python, PyTorch, scikit-learn</li>
+                </ul>
+              </div>
+            </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Software Engineering Researcher @ Eli Lilly</h3>
-              <h2>Jan 2024 - present</h2>
+              <h2>Jan 2024 - May 2024</h2>
               <div className='grid md:grid-cols-5 gap-10'>
                 <Image className='col-span-1 m-5 opacity-7' src={Lilly} alt='Lilly' width={200} height={200} />
                 <ul className='text-left list-disc p-5 md:col-span-4 font-mono'>
-                  <li className='m-5'> Utilizing data analytics and software engineering skills to aid in drug research and discovery. </li>
+                  <li className='m-5'> Data analytics, cloud engineering, medical image metadata extraction, and LLM benchmarking for drug research.</li>
+                  <li className='m-5'>Developed a CSV to Parquet converter to move large databases from AWS S3 to Apache Iceberg.</li>
+                  <li className='m-5'>Tools used: Python, Gradio, Apache Iceberg, AWS S3</li>
                 </ul>
               </div>
             </div>
@@ -299,7 +268,7 @@ Education
               <div >
                 <ul className='text-left list-disc p-5 font-mono'>
                   <li className='m-2'>Hosted an application on AWS using Flask, and Suggestic API to process 7000+ recipes.</li>
-                  <li className='m-2'>Allows users to specify up to 10 ingredients and recommender system suggests meals based on assigned filters</li>
+                  <li className='m-2'>Allows users to specify up to 10 ingredients and recommender system suggests meals based on assigned filters.</li>
                 </ul>
               </div>
             </div>
@@ -361,7 +330,7 @@ Education
                   <li className='m-2'>IoT device that effectively detects the amount of humidity in the air and moisture on various surfaces.</li>
                   <li className='m-2'>Built using various Grove sensors attachments onto a single-board Arduino computer. </li>
                   <li className='m-2'>Includes smart-home integration (Amazon Alexa, Google Home). </li>
-                  <li className='m-2'>Finalist for the 2021 Bloom Startup Hackathon</li>
+                  <li className='m-2'>Finalist for the 2021 Bloom Startup Hackathon.</li>
                 </ul>
               </div>
 
