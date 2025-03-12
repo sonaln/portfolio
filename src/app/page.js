@@ -52,8 +52,8 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className='p-10 mb-12 flex justify-between'>
             <ul className='flex items-center gap-5'>
-              <li><TiStarOutline className='text-4xl' color='darkcyan' /></li>
-              <li><h1 className='text-2xl font-small text-[#6bb8c3be] font-mono'>Sonal&#39;s Portfolio</h1></li>
+              <li><TiStarOutline className='text-4xl text-[#6bb7c3b1]' /></li>
+              <li><h1 className='text-2xl font-small text-[#6bb7c3b1] font-mono'>Sonal&#39;s Portfolio</h1></li>
             </ul>
 {/* 
             <ul className='flex items-center gap-5 text-xl'>
@@ -64,7 +64,7 @@ export default function Home() {
 
           <div className='relative'>
           </div>
-          <div className='text-center p-10 rounded-3xl md:rounded-full bg-[#6bb7c371]'>
+          <div className='text-center p-10 rounded-3xl md:rounded-full bg-[#6bb7c3a8]'>
             <h2 className='lg:text-6xl py-2 text-[#0b3948] font-medium font-mono text-4xl'>
               Sonal Naik
             </h2>
@@ -73,7 +73,7 @@ export default function Home() {
             <span role="img" aria-label="wave">👋</span> Welcome to my portfolio!
             </p>
             <p className='p-5 md:p-10 text-lg md:text-xl text-[#0b3948] font-mono'>
-              Software developer from SF Bay Area, CA. Passionate about technology and always looking for new opportunities to learn and grow. Looking for Summer 2025 SWE internship.
+              Software developer from SF Bay Area, CA. Passionate about technology and always looking for new opportunities to learn and grow.
             </p>
 
 
@@ -84,6 +84,33 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+<section>
+<div className='flex justify-center gap-10 pt-10'>
+            <h3 className='text-3xl font-mono text-[#6bb8c3be]'>
+Education
+            </h3>
+          </div>
+          
+<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+    <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">B.S. Computer Science + Data Science @ Purdue University</h3>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+    </li>
+    <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2025</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">M.S. Computer Science @ Purdue University</h3>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+    </li>
+
+</ol>
+</section>
+
+
+
 
 
 
@@ -175,7 +202,7 @@ export default function Home() {
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Undergraduate Teaching Assistant @ Purdue</h3>
               <h2>Jan 2024 - present</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -187,7 +214,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono '>Natural Language Processing Intern @ SupportVectors</h3>
               <h2>June 2023 - Aug 2023</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -202,7 +229,7 @@ export default function Home() {
             </div>
 
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Private Tutor @ Diamond Tutoring</h3>
               <h2>Mar 2021 - May 2022</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -230,7 +257,7 @@ export default function Home() {
             </h3>
           </div>
           <div className='grid-flow-col justify-center gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Software Engineering Researcher @ Eli Lilly</h3>
               <h2>Jan 2024 - present</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -241,7 +268,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Student Researcher @ PurSec Lab</h3>
               <h2>Oct 2023 - Jan 2024</h2>
               <div className='grid md:grid-cols-5 gap-10'>
@@ -265,7 +292,7 @@ export default function Home() {
             </h3>
           </div>
           <div className='grid md:grid-cols-2 gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <IoPizzaOutline className='text-3xl' />
               <h3 className='font-semibold text-xl justify-center font-mono text-[#0b3948]'>What&#39;s For Dinner?</h3>
               <h2>Jan 2024 - present</h2>
@@ -277,7 +304,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <LiaCodeSolid className='text-3xl' />
               <h3 className='font-semibold font-mono text-xl justify-center text-[#0b3948]'>Simple C Compiler</h3>
               <h2>Nov 2023 - Dec 2023</h2>
@@ -288,7 +315,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <BiShoppingBag className='text-3xl' />
               <h3 className='font-semibold text-xl justify-center text-[#0b3948] font-mono'>Marketplace</h3>
               <h2>Nov 2022 - Dec 2022</h2>
@@ -306,7 +333,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <GiDoorHandle className='text-3xl' />
               <h3 className='font-semibold text-xl justify-center text-[#0b3948] font-mono'>Armdle</h3>
               <h2>Mar 2020 - June 2021</h2>
@@ -325,7 +352,7 @@ export default function Home() {
             </div>
 
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
               <IoWaterOutline className='text-3xl' />
               <h3 className='font-semibold text-xl justify-center text-[#0b3948] font-mono'>HumiCheck</h3>
               <h2>June 2021</h2>
@@ -355,7 +382,7 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
             <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>STEM Volunteer @ Imagination Station</h3>
             <h2>Sept 2023 - present</h2>
             <div className='grid md:grid-cols-5 gap-10'>
@@ -368,7 +395,7 @@ export default function Home() {
           </div>
 
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
             <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>Co-Founder and Co-Captain/Alumni Mentor @ Blizzard Robotics</h3>
             <h2>Mar 2020 - present</h2>
             <div className='grid md:grid-cols-5 gap-10'>
@@ -381,7 +408,7 @@ export default function Home() {
               <Link target="_blank" rel="noopener noreferrer" href='https://www.ftcblizzardrobotics.com' className='text-lg cursor-pointer hover:bg-cyan-700 rounded-lg underline'>Official Website</Link>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c371]'>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-[#6bb7c3b1]'>
             <h3 className='font-semibold md:text-xl justify-center text-[#0b3948] font-mono'>STEM Summer Camp Counselor @ Tulip After School</h3>
             <h2>June 2019 - Aug 2019</h2>
             <div className='grid md:grid-cols-5 gap-10'>
